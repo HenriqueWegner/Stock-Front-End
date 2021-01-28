@@ -4,6 +4,8 @@ This is the front end of my stock control web app.
 This is a personal project for work.
 
 Front end:
+
+- Bare Bootstrap template.
 - JS.
 - JQuery.
 - HTML/CSS.
