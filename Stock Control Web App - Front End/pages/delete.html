@@ -59,6 +59,35 @@
       </div>
     </div>
   </div>
+
+
+   <!-- Loader -->
+  <div class="d-flex justify-content-center"> 
+      <div class="spinner-border" 
+            role="status" id="loading"> 
+           <span class="sr-only">Loading...</span> 
+      </div> 
+  </div> 
+  
+
+   <!-- Table -->
+  <h1>Registered Items</h1> 
+        <!-- table for showing data -->
+  <table class = "table" id="items"></table> 
+
+
+  <!-- Delete Form -->
+
+  <form>
+    <div class = "form">
+      <label for = "inputDeleteID"> Input Delete ID</label>
+      <input type ="text" class = "form-control" id = "inputDelete" placeholder="Delete">
+    </div>
+    <button type="button" class="btn btn-primary" onclick="sendJSON()" >Submit</button>
+  </form>
+
+
+
  
    <!-- Footer -->
   <footer class="bg-light text-center text-lg-start">
@@ -67,8 +96,10 @@
   </div>
 </footer>
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.slim.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.slim.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/bootstrap/js/getall.js"></script>
+  <script src="../vendor/bootstrap/js/delete.js"></script>
 
 </body>
 

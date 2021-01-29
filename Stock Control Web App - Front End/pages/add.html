@@ -59,16 +59,42 @@
       </div>
     </div>
   </div>
- 
+
+
+<!-- Form to send data -->
+<form>
+  
+  <div class="form-group">
+    <label for="inputName">Product Name</label>
+    <input class="form-control" id="inputName" placeholder="Enter Name">
+    
+  </div>
+  <div class="form-group">
+    <label for="inputQty">Quantity</label>
+    <input class="form-control" id="inputQty" placeholder="Quantity">
+  </div>
+  <div class="form-group">
+    <label for="inputThresh">Threshold</label>
+    <input class="form-control" id="inputThresh" placeholder="Threshold">
+  </div>
+  <div class="form-group">
+    <label for="inputType">Type</label>
+    <input class="form-control" id="inputType" placeholder="Type">
+  </div>
+  <button type="button" class="btn btn-primary" onclick="sendJSON()">Submit</button>
+</form>
+
+
    <!-- Footer -->
   <footer class="bg-light text-center text-lg-start">
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-    Made by: Henrique Wegner. E-mail: henriqueawegner@hotmail.com
-  </div>
-</footer>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+     Made by: Henrique Wegner. E-mail: henriqueawegner@hotmail.com
+    </div>
+  </footer>
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.slim.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.slim.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/bootstrap/js/post.js"></script>
 
 </body>
 
